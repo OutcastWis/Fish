@@ -1,0 +1,5 @@
+[ac_automaton.hpp]
+@brief      a tokenizer, use Aho-Corasick automaton
+
+[string_helper.hpp]
+@brief      a template to_tstring, can change ste between std::string & std::wstring
