@@ -6,3 +6,9 @@
 
 [demo_01]
 @brief      learn "Windows via c/c++"
+
+[浑水摸鱼.md]
+@brief      records some tips or tools used in c/c++, Win/Linux
+
+[奇技淫巧.md]
+@brief      c++ template skills
