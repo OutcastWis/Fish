@@ -103,7 +103,7 @@ namespace op
         // 内核对象的名称是全局的, 且没有机制提示你是否名称重复.
 
         HANDLE hMutex = CreateMutex(NULL, FALSE, _T("John"));
-        HANDLE hSem = CreateSemaphore(NULL, 1, 1, _T("John")); // 由于重名, 导致创建失败
+        HANDLE hSem = CreateSemaphore(NULL, 1, 1, _T("John")); // 由于重名, 且类型不一致, 导致创建失败
         ASSERT(hSem == NULL);
         DWORD dwErrorCode = GetLastError(); // ERROR_INVALID_HANDLE
         ASSERT(dwErrorCode == ERROR_INVALID_HANDLE);

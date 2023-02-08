@@ -2,3 +2,5 @@
 /demo_01/Thread_demo/x64/Debug
 /demo_01/x64/Debug
 *.user
+/demo_01/Dll_demo/x64/Debug
+/demo_01/UseDll_demo/x64/Debug

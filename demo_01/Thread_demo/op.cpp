@@ -116,7 +116,7 @@ namespace op
         GetThreadContext(hThread, &context);
 
         // CONTEXT_CONTROL specifies SegSs, Rsp, SegCs, Rip, and EFlags.
-        _tprintf(_T("Control register: ==>\n  SegSs=%d, Rsp=%lld, SegCs=%d,\n  Rip=%lld, EFlags=%d"), context.SegSs, context.Rsp,
+        _tprintf(_T("Control register: ==>\n  SegSs=%d, Rsp=%lld, SegCs=%d,\n  Rip=%lld, EFlags=%d\n"), context.SegSs, context.Rsp,
             context.SegCs, context.Rip, context.EFlags);
         // CONTEXT_INTEGER specifies Rax, Rcx, Rdx, Rbx, Rbp, Rsi, Rdi, and R8-R15.
         // ...
